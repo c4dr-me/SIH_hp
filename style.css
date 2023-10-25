@@ -37,7 +37,7 @@ header {
     justify-content: space-between;
     font-size: 1rem;
     transition: all 0.5s;
-    background-image: linear-gradient(to right, #9e6959, #de7027);
+    background-image: linear-gradient(to right, #ec4614, #de7027);
     border-radius: 2rem;
     margin: 2rem;
 }
