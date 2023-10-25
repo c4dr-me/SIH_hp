@@ -68,9 +68,9 @@ header {
 
 
 .logo {
-    mix-blend-mode: multiply;
     width: 3rem;
-    margin: 1.5rem
+    margin: 1.5rem;
+    transform: scale(1.5);
 }
 
 
