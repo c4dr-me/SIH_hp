@@ -126,7 +126,8 @@ main {
 .donation a::after,
 .login_btn::after,
 .dropbtn::after,
-.scheme_btn::after {
+.scheme_btn::after,
+.dropdown-content a::after {
     content: '';
     display: block;
     width: 0;
@@ -140,7 +141,8 @@ main {
 .donation a:hover::after,
 .login_btn:hover::after,
 .dropbtn:hover::after,
-.scheme_btn:hover::after {
+.scheme_btn:hover::after,
+.dropdown-content a:hover::after {
     width: 100%;
 }
 
@@ -159,7 +161,8 @@ main {
 .donation a::after,
 .login_btn::after,
 .dropbtn::after,
-.scheme_btn::after {
+.scheme_btn::after,
+.dropdown-content a::after {
     content: '';
     display: block;
     width: 0;
@@ -168,7 +171,8 @@ main {
     transition: width 0.3s;
 }
 
-.dropdown .dropbtn {
+.dropdown .dropbtn,
+.donation .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -211,7 +215,8 @@ main {
     text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.donation:hover .dropdown-content {
     visibility: visible;
 }
 

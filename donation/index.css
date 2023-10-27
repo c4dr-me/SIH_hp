@@ -1,0 +1,47 @@
+.content {
+    min-height: 100vh;
+
+}
+
+.banner-image {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #f8f8f8;
+    background: url(firstimage.jpeg) no-repeat center;
+    min-height: 800px;
+    background-size: cover;
+}
+
+.inner-banner-image {
+    padding: 15% 25% 0 25%;
+    margin: auto;
+}
+
+.banner-content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow: hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corousel {
+    min-height: 85%;
+}
+
+.button {
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(194, 170, 126);
+    border: solid 2px;
+    border-color: rgb(244, 238, 238);
+}
