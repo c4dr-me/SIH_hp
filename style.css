@@ -313,13 +313,6 @@ ul li a {
 }
 
 
-#why-us:target::before {
-    content: "";
-    display: block;
-    height: 5rem;
-    margin: -110px 0 0;
-    visibility: hidden;
-}
 
 
 .feature {
